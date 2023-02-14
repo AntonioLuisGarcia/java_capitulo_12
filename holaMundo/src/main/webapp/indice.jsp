@@ -16,6 +16,7 @@
         
         <ul>
             <li><a href="ejercicio3/index.jsp">Ejercicio 3</a></li>
+            <li><a href="ejercicio4/index.jsp">Ejercicio 4</a></li>
         </ul>
     </body>
 </html>
