@@ -24,7 +24,6 @@
                 aleatorio = (int)(Math.random()*6);
                 out.print("<img src = \""+caras[aleatorio]+"\">");
             }
-            
         %>
         
     </body>
