@@ -20,6 +20,6 @@
             String coche = tapiceria + moldura + ".jpg";
         %>
         
-        <p><img src ="<% coche;%>"></p>
+        <p><img src ="images/<%= coche%>"></p>
     </body>
 </html>
