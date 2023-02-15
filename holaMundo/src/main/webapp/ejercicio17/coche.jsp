@@ -21,5 +21,7 @@
         %>
         
         <p><img src ="images/<%= coche%>"></p>
+        
+        <p><a href="index.jsp">Volver</a></p>
     </body>
 </html>
