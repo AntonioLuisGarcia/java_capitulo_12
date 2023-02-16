@@ -24,7 +24,7 @@
             if(aleatorio < 1){
                 foto = 0;
                 dinero = 0;
-            }else if(aleatorio < 6){
+            }else if(aleatorio < 5){
                 foto = 1;
                 dinero *= 2;
             }else{
