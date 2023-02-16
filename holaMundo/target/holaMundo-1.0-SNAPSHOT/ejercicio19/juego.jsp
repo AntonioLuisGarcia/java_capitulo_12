@@ -24,7 +24,7 @@
             if(aleatorio < 2){
                 foto = 0;
                 dinero = 0;
-            }else if(aleatorio < 6){
+            }else if(aleatorio <= 6){
                 foto = 1;
                 dinero *= 2;
             }else{
@@ -60,7 +60,7 @@
             <input type="submit" value="Volver a jugar">
           </form>
       <%
-        } // if     
+        }      
       %>
         
     </body>
