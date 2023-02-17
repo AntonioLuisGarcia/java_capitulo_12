@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 feb. 2023, 20:01:25
+    Author     : juangarcia
+*/
+
+:root {
+  --color-primary:#000070;
+  --color-primary-contrast:#f0f0f0;
+  --color-secondary:#0000f0;
+  --color-secondary-contrast:#f0f0f0;
+  --color-success:#00a000;
+  --color-success-contrast:#101010;
+  --color-danger:#a00000;
+  --color-success-contrast:#f0f0f0;
+  --color-warning:#a0a000;
+  --color-warning-contrast:#101010;
+  
+}
+.input-item{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    border-radius:10px;
+    border:1px solid #0000a0;
+    padding:10px;
+    margin:10px;
+}
+.input-item label{
+    font-size:18px;
+    font-weight:700;
+}
+.input-item input[type=text], .input-item input[type=number]{
+    margin-top:10px;
+    margin-left:20px;
+    font-size:1.2em;
+    border: 0;
+}
+
+
+input[type=number], input[type=text]{
+    border:0;
+    background-color:snow;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    max-width:300px;
+}
+
+form input[type=submit]{
+    background:var(--color-primary);
+    color:var(--color-primary-contrast);
+    border-radius:10px;
+    padding:10px;
+    min-width:100px;
+    font-size:19px;
+    
+}
+
+form select{
+    border:0;
+    margin-top:10px;
+    font-size:18px;
+    background-color:snow;
+}
+
+.calendar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:20px;
+}
+
+.calendar h1{
+    text-align:center;
+}
+.calendar table{
+    width:100%;
+    text-align:center;
+    border-collapse:collapse;
+    
+}
+
+.calendar table th:last-of-type{
+    border-right-color:grey;
+}
+
+.calendar table th{
+    background-color:var(--color-primary);
+    color:var(--color-primary-contrast);
+    border:1px solid grey;
+    border-right-color:white;
+}
+
+.calendar table td{
+    border:1px solid grey;
+    background-color:snow;
+}
+
+.calendar table td, .calendar table th{
+    padding:10px;
+    font-size:18px;
+    width:100px;
+}
