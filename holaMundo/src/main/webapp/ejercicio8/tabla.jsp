@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Tabla de Multiplicar</h1>
-        <table style="border:1px solid black;">
+        <table style="border:1px red">
         <%
             int numero = Integer.parseInt(request.getParameter("numero"));
              
