@@ -20,6 +20,7 @@
             <li><a href="ejercicio5/index.jsp">Ejercicio 5</a></li>
             <li><a href="ejercicio6/index.jsp">Ejercicio 6</a></li>
             <li><a href="ejercicio7/index.jsp">Ejercicio 7</a></li>
+            <li><a href="ejercicio8/index.jsp">Ejercicio 8</a></li>
 
 
         </ul>
