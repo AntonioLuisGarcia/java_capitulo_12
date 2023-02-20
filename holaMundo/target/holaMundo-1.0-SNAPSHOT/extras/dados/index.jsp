@@ -13,7 +13,6 @@
     </head>
     <body>
         <h1>Juego de los dados</h1>
-        
         <h3>Elige las opciones</h3>
         
         <form method="POST" action="juego.jsp">

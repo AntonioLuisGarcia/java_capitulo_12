@@ -33,8 +33,7 @@
         <%                        
             }while(!iguales);
         %>
-        
-        
+          
         <a href="index.jsp">Volver a tirar</a>
     </body>
 </html>
