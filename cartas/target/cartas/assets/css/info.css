@@ -1,0 +1,43 @@
+body{
+  background-color: #6ae978;
+}
+
+h1{
+  text-align: center;
+}
+ul {
+    list-style: none; /* Elimina los puntos de lista predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 1.3rem;
+  }
+  
+  li {
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    font-size: 18px; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+  }
+  
+  li:before {
+    content: "\2022"; /* Agrega un punto a cada elemento de la lista */
+    color: #000000; /* Color del punto */
+    margin-right: 10px; /* Espacio entre el punto y el contenido */
+  }
+
+  .boton{
+    position: fixed;
+    bottom: 6%;
+    left: 3%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #0000ff7a;
+  }
+
+  .boton a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
